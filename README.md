@@ -1,7 +1,5 @@
-# image-upload-project
-S3SnapStore: Image Upload and Management Using AWS Services
-Project Overview
-S3SnapStore is a cloud-based image upload web application that enables users to upload images through a web interface, which are then stored securely on AWS S3. It also stores image metadata, such as the uploader's name and the S3 URL, in Amazon RDS. This project demonstrates a full-stack cloud solution using an EC2 instance to run the application, along with IAM roles for security and VPC for networking.
+# Dynamic S3 Image Handler
+Description: Developed a web application for managing image uploads under 1MB, integrating seamless storage with AWS S3 and data tracking via RDS within a custom VPC environment.
 
 Features
 User-friendly Image Upload: A simple HTML interface allows users to upload images, which are then stored both locally and in AWS S3.
