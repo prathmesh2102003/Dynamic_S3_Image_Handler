@@ -1,0 +1,7 @@
+AWS SDK and Composer Setup
+Install Composer on the EC2 instance to manage PHP dependencies:
+sudo curl -sS https://getcomposer.org/installer | sudo php
+sudo mv composer.phar /usr/local/bin/composer
+sudo ln -s /usr/local/bin/composer /usr/bin/composer
+Install the AWS SDK for PHP:
+sudo composer require aws/aws-sdk-php
