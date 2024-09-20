@@ -3,7 +3,7 @@ Create an Amazon RDS instance in the same region as the EC2 instance.
 Create a security group for RDS and allow MySQL access from the EC2 instance’s security group.
 Create a database named facebook and a posts table with the following schema:
 sql
-run following commands in datatbase for create db and table :
+run following commands in database for create db and table :
 CREATE DATABASE images;
 USE images;
 CREATE TABLE posts (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100),url TEXT);
